@@ -1,0 +1,85 @@
+body {
+  font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans';
+}
+
+.header {
+  display: flex;
+  background-color: #AD0540;
+  height: 100px;
+  align-items: center;
+  background-color: #AD0540;
+}
+
+
+.header a { 
+  padding-bottom: 8px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-family: 'Noto Sans';
+  border-bottom: 4px solid #AD0540;
+}
+
+.header a:hover {
+  border-bottom: 4px solid #fff;
+}
+
+
+.main-content {
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+}
+
+.main-content__signup {
+  width: 50%;
+}
+
+.main-content__icon img{
+  width: 500px;
+}
+
+.main-content__signup h1 {
+  position: relative;
+  width: fit-content;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-content__signup h1 > span {
+  padding-left: 12px;
+}
+
+.main-content__signup h1::before {
+  content: "";
+  display: block;
+  background: #C4C4C4;
+  position: absolute;
+  height: 100%;
+  width: 6px;
+  bottom: 0;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content__signup ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.main-content__signup  p {
+  margin-bottom: 4px;
+  line-height: 24px;
+  /* font-size: 20px; */
+}
+
